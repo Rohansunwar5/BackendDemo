@@ -1,0 +1,159 @@
+cors policy prevents 
+whitelist for no errors 
+
+whitelisting helps to prevent getting bloacked from cors policy, this is done through backend 
+
+🚀 Overcoming fear of production: Discussing the unnecessary fear of production and encouraging a relaxed approach to coding.
+💡 Learning in a comfortable environment: Emphasizing the importance of a supportive learning environment without the pressure of production concerns.
+💻 Exploring backend basics: Introducing the concept of creating a basic backend server and understanding standard practices.
+🌐 Handling requests: Discussing the process of handling requests and fetching data in the backend.
+💰 Value of internet data: Highlighting that investing in online courses is worth it compared to the minimal cost of internet data.
+🎓 Learning through coaching: Emphasizing the ease of learning through coaching and enjoying the process.
+🛠️ Building a small backend server: Planning to create a small backend server to implement and understand backend processes.
+🤔 Industry practices vs. best practices: Addressing the distinction between industry practices and best practices, promoting the importance of the latter.
+🛠️ Setting up project folders: Creating separate folders for backend and frontend in the project structure for organized development.
+🚀 Project goals: Discussing the big picture of application deployment, including possible platforms like Digital Ocean or AWS.
+🔄 Handling course errors: Addressing common issues like course errors, server creation, and tool changes within the development process.
+🎯 Target for viewer support: Setting a target of 500 comments for viewer support and encouraging engagement on the channel.
+🤝 Collaboration and discussion: Inviting viewers to join discussions and collaborations for mutual help and learning.
+📂 Organizing code: Demonstrating the organization of code by creating folders and subfolders for a clear project structure.
+🌐 Routing considerations: Discussing the importance of routing and folder structure for both backend and frontend development.
+🖱️ Easy navigation: Advising a simple and easy approach to navigating and creating files within the project structure.
+📁 Frontend setup: Creating a frontend folder and discussing the need for proper folder organization in the project structure.
+⚙️ Backend overview: Exploring the basic setup and revision for the backend, emphasizing simplicity in the initial stages.
+📝 Server and entry point: Creating server.js as the entry point for the backend, setting up the server and defining the entry point file.
+🌐 Express integration: Importing and using Express in a modern syntax to enhance code readability and maintainability.
+🚀 Starting the server: Initiating the server by setting up a start script in package.json and invoking the server.js file.
+🌐 Routing with Express: Implementing a basic route with app.get and a callback function for handling requests and responses.
+🔄 Basic server response: Sending a simple response from the server, indicating that the server is ready and serving on the root route.
+🧑‍💻 Coding simplicity: Emphasizing the simplicity of the code and the minimal steps taken in this initial phase of backend development.
+🌐 Port configuration: Discussing the importance of configuring the port for the server and explaining various ways to handle it, including environment variables and hardcoded values.
+🔄 Dynamic port assignment: Demonstrating a dynamic approach to port assignment using process.env.PORT in production and a hardcoded backup.
+🚀 Error handling: Addressing potential errors related to the port and emphasizing the need for proper error resolution strategies in server development.
+🌐 Server status message: Introducing a simple code to display a message indicating that the server is running on the specified port.
+🤖 Import statements in JavaScript: Explaining the two ways to import files in JavaScript, highlighting the use of require for modules like Express.
+🛠️ Synchronous code considerations: Discussing how synchronous code works, mentioning the asynchronous nature of Node.js, and hinting at a future video on handling asynchronous tasks.
+📦 Manifesting files: Referring to the manifest file (package.json) and its role in specifying configurations like scripts, dependencies, and version control for the project.
+🧩 Creating a custom type: Mentioning the intention to create a custom type named "model" and the importance of proper organization and naming in project development.
+📁 Assembling JavaScript files: Discussing the process of assembling JavaScript files, particularly in the context of using Express.js and the need to import and organize multiple files.
+🧩 Types in TypeScript: Introducing the concept of types in TypeScript and emphasizing the importance of defining models with appropriate types for better code organization.
+🚀 Basic server setup: Successfully setting up a basic server on localhost:3000 and demonstrating the server's readiness.
+🌐 Creating a specialized route: Expressing interest in creating a special route for jokes and discussing the need to organize and structure routes effectively.
+🌐 Jokes data structure: Describing the structure of the jokes data, including properties like ID, title, and content, within an array.
+🛠️ Handling errors: Highlighting the necessity of adding a slash (/) to avoid errors and demonstrating sending jokes data as a response.
+🌐 Custom API endpoint: Creating a simple API endpoint for jokes and recommending the use of JSON formatter websites for proper syntax and structure.
+🧹 Formatting with JSON formatter: Advising the audience to use JSON formatter websites for beautifying and formatting JSON responses for better readability and understanding.
+📚 Understanding tree structure: Recommending examining the structure of the tree to understand objects and values within, especially for handling large applications.
+🚀 Server readiness: Confirming that the server is ready to run and the jokes depend on the slash (/) for proper functioning.
+📝 Simplifying code comments: Suggesting minimal comments in the code, focusing on the tree structure and minimizing unnecessary details.
+🛠️ Backend functionality: Summarizing the backend's role as creating a simple application where jokes are served through a specific port.
+🌐 Frontend data consumption: Discussing the need for the frontend to consume data from the backend, indicating the role of React in handling and displaying the data.
+🛠️ Building React applications: Highlighting the various approaches (Webpack, Create React App, Parcel) for building React applications, emphasizing the common goal of bundling JavaScript files.
+🛠️ Toolchain for bundling: Introducing the concept of a toolchain for bundling, such as Webpack, to assist in bundling and converting JavaScript files for browser understanding.
+🧑‍💻 Simplifying React state: Emphasizing the ease of handling state in React, contrasting it with traditional approaches like getElementById and showcasing the simplicity of React's declarative nature.
+📦 Bundler selection: Discussing the use of the Webpack bundler, referred to as "Vite," for handling files and creating a bundled application.
+🔄 Continuous deployment: Highlighting the practice of directly deploying applications to Netlify and the distribution process, contrasting it with traditional methods.
+🔄 Migration challenges: Mentioning the challenges faced by companies in migrating from older systems, using Netlify as an example of a modern deployment platform.
+🛠️ Frontend setup: Demonstrating the initial setup of a React application in the frontend, emphasizing keeping the project structure clean.
+🛠️ Folder organization: Advising on folder structure simplicity, using a single dot (.) to ensure files are contained within the current folder.
+📂 Project naming: Encouraging easy project identification by naming it "frontend" directly within the current folder.
+⚙️ Installation process: Informing about the quick installation process using "npm install" for required dependencies.
+💻 Editing source code: Demonstrating the source code modification in app.js, changing the displayed content to an H1 element with "Chai and Full Stack."
+🔄 Data retrieval: Emphasizing the concept of self-made backends for fetching data from APIs, crucial for building applications with diverse data sources.
+📝 Setting up jokes: Demonstrating the creation of a "jokes" component with an initial state and sample data, a fundamental step in React development.
+🔄 Mapping jokes: Using the map function to iterate through jokes and display them individually, showcasing a common technique in JavaScript.
+🛠️ Prop structure: Describing the structure of a joke object with properties like ID, title, and content, essential for organizing and displaying content.
+🔄 Sending requests: Mentioning the need for making requests to APIs and a glimpse into handling asynchronous operations with the appearance of a request in the code.
+📚 Professional code: Promoting the importance of professional coding practices and discussing the appearance of an API request in a professional React code setup.
+🚀 Future discussions: Teasing upcoming videos on React props, React queries, and different implementations, offering a glimpse into the depth of React concepts.
+📚 Learning concepts: Encouraging viewers to understand concepts like retirement in React before delving into specific implementations, highlighting the importance of foundational knowledge.
+📦 Library Introduction: Introducing the 'axios' library for web requests, highlighting its additional features and functionalities.
+🔄 Making Requests: Demonstrating the simplicity of making a GET request using 'axios' to fetch data from a specified URL.
+🌐 Request Configuration: Discussing the URL structure for the GET request and emphasizing the importance of correct configuration for successful data retrieval.
+🚀 Library Installation: Mentioning the need to install the 'axios' library and the advantages it offers for handling web requests effectively.
+🤔 Exploring Axios: Encouraging developers to explore the Axios library for its powerful features, especially in handling form parsing and other functionalities.
+⚙️ Use of Effects: Introducing the concept of using 'effects' in React to trigger actions like making requests, a fundamental aspect of React development.
+🌐 Request URL: Highlighting the necessity of specifying the correct URL in the GET request for fetching data successfully.
+📑 Callback Function: Describing the callback function within the effect, illustrating how to handle the data received from the API call.
+📜 Handling Response: Demonstrating how to handle the response from a request by setting the data using 'setJokes' and directly appending it to the state.
+🛑 Error Handling: Addressing error handling by utilizing 'catch' to handle potential errors and logging them.
+🔄 Making Requests: Reiterating the basic process of making a GET request using 'axios' and appending the received data to the state.
+🌐 CORS Exploration: Introducing the concept of Cross-Origin Resource Sharing (CORS) and its significance in securing applications from unauthorized data access.
+🚧 CORS Policy: Discussing the CORS policy as a safety measure, drawing an analogy with allowing or restricting access to different individuals in a household.
+🔍 Inspecting Errors: Encouraging developers to inspect errors using browser tools, specifically mentioning the relevance of the CORS-related errors.
+🤔 Understanding CORS: Simplifying the understanding of CORS by explaining its implications for servers receiving requests from different domains.
+📈 Request Power: Highlighting the significant power of handling numerous requests efficiently on the server, emphasizing the potential impact on bandwidth and resources.
+💲 Monetization Misconception: Clarifying the misconception that everything on YouTube is free and explaining that courses may have associated costs.
+🌐 Cross-Origin Request: Defining Cross-Origin Request and highlighting scenarios where a different URL or port can be considered as cross-origin.
+🚧 CORS Solutions: Discussing solutions to CORS issues, emphasizing the importance of whitelisting URLs, port numbers, and ensuring the originality of the source.
+🛠️ Developer Responsibility: Encouraging developers to take responsibility by whitelisting their URLs and ports, preventing CORS-related errors.
+🔄 Server Configuration: Demonstrating the server-side solution by installing and configuring the CORS package in the server.js file.
+📝 CORS Package Installation: Guiding through the installation of the CORS package and its basic usage in handling cross-origin requests.
+⚙️ CORS Options: Explaining customization options within CORS, such as whitelisting specific origins and configuring other variables for precise control.
+🤔 Understanding CORS Mechanism: Encouraging a deeper understanding of CORS mechanisms by exploring options and settings available in the CORS package configuration.
+🔄 Dynamic Port Handling: Discussing the dynamic nature of ports during development and the importance of considering different ports in production.
+🌐 Whitelisting Strategies: Emphasizing the need for whitelisting configurations in both development and production to avoid CORS errors.
+🚀 Production Considerations: Highlighting the differences in handling ports and configurations when transitioning from local development to production.
+🛡️ CORS Error Handling: Introducing the concept of handling CORS errors and the importance of allowing specific requests using whitelisting.
+🌍 Server Configuration: Discussing the significance of server configuration, including whitelisting and adapting to different environments.
+🧐 Upstream Deployment: Describing the process of deploying applications to different environments, ensuring proper whitelisting for smooth operation.
+🛑 Preventing Application Failure: Stressing the importance of understanding and addressing potential issues, such as CORS problems, before deploying an application.
+📡 CORS Handling Solution: Providing insights into CORS handling solutions, mentioning the utilization of packages like "appright" for effective whitelisting.
+🔄 URL Standardization: Emphasizing the importance of standardizing URLs for APIs, following practices like using slashes and versioning.
+🌐 Authorization Practices: Discussing authorization practices, ensuring that the backend follows standardization, such as using the slash API endpoint.
+🚀 Application Restart: Mentioning the need for restarting the backend application after making changes to ensure proper serving of data.
+🧐 Localhost Verification: Verifying the proper functioning of the application on localhost before moving to other environments.
+📝 Proxy Concept: Introducing the concept of a proxy and how it simplifies the handling of URL-related issues.
+⚙️ Proxy Standardization: Highlighting that proxy processes are not standardized, requiring careful consideration and understanding of their operation.
+🚫 Handling Non-Existent URLs: Addressing the issue of non-existent URLs and the importance of handling errors like "404 Not Found."
+🔄 Dynamic Proxy Configuration: Discussing the dynamic nature of proxy processes and why simple variable or environment-based approaches may not be effective.
+📚 Documentation Reference: Encouraging viewers to refer to documentation, specifically mentioning creating proxies in React App, for better understanding.
+🧹 Package Adjustment: Advising modifications in the package.json file, especially when using Create React App, by adding or removing proxy-related settings.
+🛠️ Server Configuration: Explaining the process of server configuration and how to add a proxy within the configuration file for local development.
+🚫 Proxy Removal: Suggesting the removal of the proxy setting if using Create React App, as it might not work in certain scenarios.
+🛠️ Tool Chain Usage: Discussing the use of toolchains like Webpack for proxy setup and mentioning personal preferences for tools like Webpack.
+🔄 Server Options: Demonstrating server options in the configuration file, allowing users to customize ports and handle proxy-related configurations.
+📂 Configuration Editing: Guiding users on how to edit configuration files, specifically addressing sections related to proxies and server options.
+🔄 Proxy Object Functionality: Explaining the functionality of the proxy object, emphasizing the automatic appending of local host details to the request URL.
+🔄 Proxy Append Logic: Explaining how the proxy automatically appends to the request URL, illustrated with the example of "/local".
+🚀 Proactive Proxy Setup: Emphasizing the importance of correctly setting up proxies, highlighting common mistakes, and stressing the actual implementation of the proxy.
+🌐 Understanding Request Flow: Describing the request flow and how the final URL on the server is determined, pointing out the significance of the proxy in this process.
+🛠 Configuration Advantages: Discussing the advantages of configuring the proxy, allowing the server to distinguish the origin of the request and handle it accordingly.
+🔄 Dynamic Request Handling: Demonstrating how the proxy dynamically handles requests, aiding in better understanding the concept of proxying and origin determination.
+🌐 Production Configuration: Highlighting the flexibility gained by configuring proxies, especially when transitioning an application to production, and suggesting necessary adjustments.
+🐞 Problem Troubleshooting: Advising on common troubleshooting steps, such as restarting the server and checking configuration files, when facing issues with proxy or display.
+🛠️ Application Restart: Recommending restarting both the front-end and back-end applications as a standard practice to resolve configuration-related issues.
+❌ Rendering Error: Addressing a rendering issue with a portion of jokes not being displayed, emphasizing the need to investigate and resolve such errors.
+🔄 Dependency Integration: Explaining the process of integrating dependencies and discussing the importance of understanding the effects of the code.
+🚫 Unnecessary Dependencies: Advising against unnecessary dependencies, highlighting the need for effective use of dependencies and explaining their role in the code.
+🛠️ Problem Isolation: Identifying and isolating issues within the code, illustrating the steps taken to troubleshoot and fix problems related to rendering.
+🔄 Code Refactoring: Demonstrating code refactoring for better readability and functionality, showcasing how to replace specific code segments for improvement.
+🚀 Proactive Error Handling: Emphasizing the importance of proactive error handling and debugging, encouraging developers to anticipate potential issues.
+🌐 CORS Solutions: Discussing CORS-related issues and suggesting solutions, mentioning the common practice of configuring proxies to handle CORS problems.
+🔧 Advanced Practices: Touching on advanced practices and cautioning against unnecessary complexities, while acknowledging that some developers may choose to follow these practices.
+🔄 Automated Build Process: Discussing the importance of automating the build process in large companies, emphasizing the need for an efficient toolchain for deployment.
+🛠️ Command Automation: Highlighting the significance of automating build commands, showcasing examples of how commands can be streamlined for efficient execution.
+🌐 Distribution Folder Content: Explaining the contents of the distribution folder, illustrating how the code is compiled, shrunk, and organized for deployment.
+🔍 Proactive Debugging: Encouraging proactive debugging practices during the build process, demonstrating the identification and resolution of potential issues before deployment.
+⚙️ Middleware for Static Assets: Introducing middleware to serve static assets, showcasing the use of middleware in server.js for handling static files in the distribution folder.
+🚀 Deployment Best Practices: Advocating best practices in deployment, including the deployment of the entire application and static assets to ensure a seamless deployment process.
+🔄 Source Code Integration: Explaining how source code is integrated into the distribution folder, detailing the role of middleware in serving static assets from the distribution folder.
+🤖 Middleware Functionality: Teasing the detailed discussion on the functionality of middleware, hinting at a comprehensive exploration of the term "middleware" in subsequent content.
+🔄 Middleware Role: Describing the role of middleware in handling requests, drawing parallels to how proxies work and emphasizing their interaction between frontend and backend.
+🚦 Express Middleware: Introducing Express middleware as a tool to manage and process requests, highlighting its importance in controlling the flow of data.
+📁 Static Files Serving: Explaining the configuration of Express to serve static files from the distribution folder, ensuring the correct setup for accessing files.
+🔄 Restarting Server: Demonstrating the need to restart the server after changes in static files configuration, emphasizing the importance of the restart for effective implementation.
+🛠️ Troubleshooting Issues: Addressing issues with code changes and providing a hands-on approach to debugging and resolving problems in the static files setup.
+🔄 Build Practices: Emphasizing the iterative build process, showcasing how refreshing the local server aids in reflecting code changes and practicing effective development habits.
+🔄 Distribution Folder Adjustment: Instructing the removal of the old distribution folder and ensuring the correct placement of the updated distribution folder for seamless functionality.
+🛑 Best Practices Reminder: Reminding developers to follow best practices of maintaining frontend and backend separation, discouraging unnecessary removals and promoting a structured codebase.
+🌐 Host Configuration Flexibility: Emphasizing the flexibility of changing hosts seamlessly, allowing code to work on both local and digital solutions with a simple switch.
+📂 Efficient Static Files Serving: Highlighting the efficient handling of static files in the backend, showcasing how they can be served seamlessly from the backend to the frontend.
+🔗 Backend-Frontend Integration: Discussing the integration of backend and frontend, suggesting strategies to manage the mix of backend and frontend code for a smoother development experience.
+🔄 Proxy Learning: Encouraging learning about proxies, showcasing their significant role in the backend, and how they can be employed effectively for various purposes.
+🔄 Create App with Proxy: Demonstrating the use of proxies in creating applications, providing insights into how they contribute to resolving CORS errors and enhancing server communication.
+🚀 Continuous Learning: Encouraging continuous learning by reflecting on the knowledge gained about proxies and their applications in different scenarios.
+🛡️ CORS Issue Resolution: Addressing CORS (Cross-Origin Resource Sharing) issues and ensuring resolution both on the server and frontend, emphasizing the importance of understanding where resolution can take place.
+🛠️ Best Practices in Large Companies: Mentioning the adoption of best practices in large companies, showcasing the relevance of the discussed concepts in real-world scenarios within significant enterprises.
+
+using dist folder to serve in the production is a very bad practice beacuse changes in the frontend can;t propagate 
